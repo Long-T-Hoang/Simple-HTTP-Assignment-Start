@@ -1,0 +1,31 @@
+{
+  "name": "simple-http-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines":{
+    "node": "14.17.6",
+    "npm": "6.14.15"
+  },
+  "scripts": {
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\"",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Long-T-Hoang/Simple-HTTP-Assignment-Start.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Long-T-Hoang/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/Long-T-Hoang/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
